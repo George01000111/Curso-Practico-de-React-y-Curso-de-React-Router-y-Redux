@@ -1,0 +1,82 @@
+npm run start ---para inicializar pagina
+
+crea crear pero no todo
+npm init -y
+
+code . para abrir el visual code
+
+instalar
+npm install react react-dom
+
+instalacion de babel
+npm install @babel/core babel-loader @babel/preset-env @babel/preset-react --save
+
+@babel/preset-env para trabajar ema script ES5  y ES6
+@babel/preset-react para trabajar jsx y react
+
+instalacion de webpack se encarga de los archivos js,html,css y multimedia los pone listo y optimisado para mandar a produccion
+npm install webpack webpack-cli html-webpack-plugin html-loader --save-dev
+
+
+limpiar consola
+clear
+
+para compilar
+npm run build
+
+instalar para probar lo q estamos construyendo en tiempo real
+ npm install webpack-dev-server --save-dev
+http://localhost:8080/
+
+instalando el sass
+ npm install mini-css-extract-plugin css-loader node-sass sass-loader --save-dev
+
+instalando eslint es un linter de código JavaScript. Su función es analizar el código de nuestra aplicación, detectar problemas en por medio de patrones y si esta a su alcance resolverlos él mismo.
+npm install eslint babel-eslint eslint-config-airbnb eslint-plugin-import eslint-plugin-react eslint-plugin-jsx-a11y
+config eslint
+https://gist.github.com/gndx/60ae8b1807263e3a55f790ed17c4c57a
+propuesta para gitignore
+https://gist.github.com/gndx/747a8913d12e96ff8374e2125efde544
+
+
+instalar para imagenes con webpack
+npm install file-loader --save-dev
+
+--------fake api------------
+instalando paquete
+npm install json-server -g
+inicializando la fake api
+ json-server initialState.json
+----------------------------
+
+npm install prop-types
+
+
+................Curso de React Router y Redux..............
+instalando
+ npm install react-router-dom --save
+
+en webpack.config.js escribir
+devServer:{
+        historyApiFallback:  true,  
+    },
+
+
+
+instalando redux y react-redux
+npm install redux react-redux --Save
+*redux q va contener toda la logica q como trabajamos con el 
+*react-redux q va permitir implementarlo dentro nuestro proyecto de una forma mas facil
+
+
+componente presentacional convertir a funcional para trabajar react-hook
+
+instalar md5
+npm install md5 --save
+
+instalar classnames permite crear logica y validar para diseno
+npm install classnames --save
+
+instalar Redux DevTools para chrome
+https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd
+
